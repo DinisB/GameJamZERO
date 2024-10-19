@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 61778ca5ea66d9a48add1d47d7ab73e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8915666014623274252
+    second: Scared_Skeleton_Lapide_0
+  - first:
+      213: 4670348820143743943
+    second: Scared_Skeleton_Lapide_1
+  - first:
+      213: -3357281274516450223
+    second: Scared_Skeleton_Lapide_2
+  - first:
+      213: -1126556407076196853
+    second: Scared_Skeleton_Lapide_3
+  - first:
+      213: 7744037115353309027
+    second: Scared_Skeleton_Lapide_4
+  - first:
+      213: 6787419825304774067
+    second: Scared_Skeleton_Lapide_5
+  - first:
+      213: -2159397685290506344
+    second: Scared_Skeleton_Lapide_6
+  - first:
+      213: -5625800875565763462
+    second: Scared_Skeleton_Lapide_7
+  - first:
+      213: 1961663166114818689
+    second: Scared_Skeleton_Lapide_8
+  - first:
+      213: 6932077822080024756
+    second: Scared_Skeleton_Lapide_9
+  - first:
+      213: 3765886698762391075
+    second: Scared_Skeleton_Lapide_10
+  - first:
+      213: 5656236138592771919
+    second: Scared_Skeleton_Lapide_11
+  - first:
+      213: -953991919659101550
+    second: Scared_Skeleton_Lapide_12
+  - first:
+      213: -5615279428993974895
+    second: Scared_Skeleton_Lapide_13
+  - first:
+      213: -6596212451504397526
+    second: Scared_Skeleton_Lapide_14
+  - first:
+      213: 8509785752771799304
+    second: Scared_Skeleton_Lapide_15
+  - first:
+      213: 5538294972807017177
+    second: Scared_Skeleton_Lapide_16
+  - first:
+      213: -3446312561918898534
+    second: Scared_Skeleton_Lapide_17
+  - first:
+      213: 8343943995846429817
+    second: Scared_Skeleton_Lapide_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 101
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0594a9c00fcabb70800000000000000
+      internalID: 8915666014623274252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 101
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c325d1e18960d040800000000000000
+      internalID: 4670348820143743943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 101
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154506de77a8861d0800000000000000
+      internalID: -3357281274516450223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 101
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e68c0aaeaad50f0800000000000000
+      internalID: -1126556407076196853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 101
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f131c0ab8587b60800000000000000
+      internalID: 7744037115353309027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b52cbcae52c13e50800000000000000
+      internalID: 6787419825304774067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 69
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89765770f374802e0800000000000000
+      internalID: -2159397685290506344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 69
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7432d219e32de1b0800000000000000
+      internalID: -5625800875565763462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 69
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aed39914a393b10800000000000000
+      internalID: 1961663166114818689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 69
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0817c2d00b33060800000000000000
+      internalID: 6932077822080024756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ec910000e134430800000000000000
+      internalID: 3765886698762391075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 37
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9c8eccccfe7e40800000000000000
+      internalID: 5656236138592771919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 37
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292502e476db2c2f0800000000000000
+      internalID: -953991919659101550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 37
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d71404c158212b0800000000000000
+      internalID: -5615279428993974895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 37
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23621d39bb8574a0800000000000000
+      internalID: -6596212451504397526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809a4ac2e05d81670800000000000000
+      internalID: 8509785752771799304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 5
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d27e734fe9fbdc40800000000000000
+      internalID: 5538294972807017177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 5
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e8bd9fbfc3c20d0800000000000000
+      internalID: -3446312561918898534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_Skeleton_Lapide_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c0e2a2bd4abc370800000000000000
+      internalID: 8343943995846429817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Scared_Skeleton_Lapide_0: 8915666014623274252
+      Scared_Skeleton_Lapide_1: 4670348820143743943
+      Scared_Skeleton_Lapide_10: 3765886698762391075
+      Scared_Skeleton_Lapide_11: 5656236138592771919
+      Scared_Skeleton_Lapide_12: -953991919659101550
+      Scared_Skeleton_Lapide_13: -5615279428993974895
+      Scared_Skeleton_Lapide_14: -6596212451504397526
+      Scared_Skeleton_Lapide_15: 8509785752771799304
+      Scared_Skeleton_Lapide_16: 5538294972807017177
+      Scared_Skeleton_Lapide_17: -3446312561918898534
+      Scared_Skeleton_Lapide_18: 8343943995846429817
+      Scared_Skeleton_Lapide_2: -3357281274516450223
+      Scared_Skeleton_Lapide_3: -1126556407076196853
+      Scared_Skeleton_Lapide_4: 7744037115353309027
+      Scared_Skeleton_Lapide_5: 6787419825304774067
+      Scared_Skeleton_Lapide_6: -2159397685290506344
+      Scared_Skeleton_Lapide_7: -5625800875565763462
+      Scared_Skeleton_Lapide_8: 1961663166114818689
+      Scared_Skeleton_Lapide_9: 6932077822080024756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

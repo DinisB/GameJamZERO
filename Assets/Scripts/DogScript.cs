@@ -47,6 +47,9 @@ public class DogScript : MonoBehaviour
     }
     void FixedUpdate()
     {
+        if (DogAlive == false) {
+            rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x-3, rb2d.linearVelocity.y);
+        }
         rb2d.linearVelocity = new Vector2(0, rb2d.linearVelocity.y-1);
 
         if (Input.GetKey("z") && (InGround == true) && (DogAlive == true)){
