@@ -14,30 +14,24 @@ public class DogScript : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rb2d.linearVelocity = new Vector2(walkSpeed, rb2d.linearVelocity.y);
+        rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, rb2d.linearVelocity.y);
 
         if (Input.GetKey("space") && (InGround == true)){
-            rb2d.linearVelocity = new Vector2(walkSpeed, jumpSpeed);
+            rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
+        }
+        if (Input.GetKey(KeyCode.RightArrow)){
+            rb2d.linearVelocity = new Vector2(walkSpeed, rb2d.linearVelocity.y);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow)){
+            rb2d.linearVelocity = new Vector2(-walkSpeed, rb2d.linearVelocity.y);
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col){
-        if (col.gameObject.tag == "Wall") {
-            if (walkSpeed == 5f) {
-                walkSpeed = -5f;
-                sr.flipX = true;
-            }
-            else if (walkSpeed == -5f) {
-                walkSpeed = 5f;
-                sr.flipX = false;
-            }
-        }
-    }
 
-    void OnTriggerStay2D(Collider2D col){
+    void OnTriggerStay2D(Collider2D col) {
         if (col.gameObject.tag == "Ground") {
             InGround = true;
-            rb2d.linearVelocity = new Vector2(walkSpeed, rb2d.linearVelocity.y-1f);
+            rb2d.linearVelocity = new Vector2(walkSpeed, rb2d.linearVelocity.y);
         }
     }
     void OnTriggerExit2D(Collider2D col){

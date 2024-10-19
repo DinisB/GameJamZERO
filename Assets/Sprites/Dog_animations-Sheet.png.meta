@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 2c28297580769c44f8424285eb7c53a5
+guid: b071634bb23bec742ba370f524de1136
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7117956229468563202
-    second: SkellyIcon_0
+      213: -14961329110794522
+    second: Dog_animations-Sheet_0
   - first:
-      213: 6001257804385911117
-    second: SkellyIcon_1
+      213: -309517404514415545
+    second: Dog_animations-Sheet_1
+  - first:
+      213: -3234370337549831941
+    second: Dog_animations-Sheet_2
+  - first:
+      213: -1005306770503366681
+    second: Dog_animations-Sheet_3
+  - first:
+      213: 8173307560298256983
+    second: Dog_animations-Sheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,45 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SkellyIcon_0
+      name: Dog_animations-Sheet_0
       rect:
         serializedVersion: 2
-        x: 135
-        y: 55
-        width: 714
-        height: 778
+        x: 6
+        y: 0
+        width: 48
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef85fb79580f73d90800000000000000
-      internalID: -7117956229468563202
+      spriteID: 6eebbfc10c8dacff0800000000000000
+      internalID: -14961329110794522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkellyIcon_1
+      name: Dog_animations-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 55
-        width: 802
-        height: 778
+        x: 118
+        y: 0
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4186f35d20c84350800000000000000
-      internalID: 6001257804385911117
+      spriteID: 74c0e1c7f8f54bbf0800000000000000
+      internalID: -309517404514415545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_animations-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0384e70553d13d0800000000000000
+      internalID: -3234370337549831941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_animations-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e70add81de6c02f0800000000000000
+      internalID: -1005306770503366681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_animations-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a979b0ceb6d6170800000000000000
+      internalID: 8173307560298256983
       vertices: []
       indices: 
       edges: []
@@ -150,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bb11f2a3037901d4285df5fb8fd8f30d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SkellyIcon_0: -7117956229468563202
-      SkellyIcon_1: 6001257804385911117
+      Dog_animations-Sheet_0: -14961329110794522
+      Dog_animations-Sheet_1: -309517404514415545
+      Dog_animations-Sheet_2: -3234370337549831941
+      Dog_animations-Sheet_3: -1005306770503366681
+      Dog_animations-Sheet_4: 8173307560298256983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

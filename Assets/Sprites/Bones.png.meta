@@ -1,13 +1,43 @@
 fileFormatVersion: 2
-guid: 2c28297580769c44f8424285eb7c53a5
+guid: 69e26697d2a8d9949a6edc9cca969e66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7117956229468563202
-    second: SkellyIcon_0
+      213: -4580670938525849379
+    second: Bones_0
   - first:
-      213: 6001257804385911117
-    second: SkellyIcon_1
+      213: 2814292834381581112
+    second: Bones_1
+  - first:
+      213: 2394847500092774128
+    second: Bones_2
+  - first:
+      213: 2981434001514613099
+    second: Bones_3
+  - first:
+      213: 5719912029294761734
+    second: Bones_4
+  - first:
+      213: -1734411673589392757
+    second: Bones_5
+  - first:
+      213: -305738679072109373
+    second: Bones_6
+  - first:
+      213: 5108133337276065835
+    second: Bones_7
+  - first:
+      213: -4361333571633691466
+    second: Bones_8
+  - first:
+      213: -472473101296550905
+    second: Bones_9
+  - first:
+      213: 6111194356747808934
+    second: Bones_10
+  - first:
+      213: -8546390806637348153
+    second: Bones_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,45 +133,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SkellyIcon_0
+      name: Bones_0
       rect:
         serializedVersion: 2
-        x: 135
-        y: 55
-        width: 714
-        height: 778
+        x: 6
+        y: 40
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef85fb79580f73d90800000000000000
-      internalID: -7117956229468563202
+      spriteID: dd826340d003e60c0800000000000000
+      internalID: -4580670938525849379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkellyIcon_1
+      name: Bones_1
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 55
-        width: 802
-        height: 778
+        x: 38
+        y: 40
+        width: 17
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4186f35d20c84350800000000000000
-      internalID: 6001257804385911117
+      spriteID: 83bcd3f0c606e0720800000000000000
+      internalID: 2814292834381581112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bones_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f61346ec153c3120800000000000000
+      internalID: 2394847500092774128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bones_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 8
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69cc859d6e206920800000000000000
+      internalID: 2981434001514613099
       vertices: []
       indices: 
       edges: []
@@ -150,7 +224,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bb11f2a3037901d4285df5fb8fd8f30d
+    spriteID: 21dc7af6b778a90499defdb9694f7653
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +234,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SkellyIcon_0: -7117956229468563202
-      SkellyIcon_1: 6001257804385911117
+      Bones_0: -4580670938525849379
+      Bones_1: 2814292834381581112
+      Bones_10: 6111194356747808934
+      Bones_11: -8546390806637348153
+      Bones_2: 2394847500092774128
+      Bones_3: 2981434001514613099
+      Bones_4: 5719912029294761734
+      Bones_5: -1734411673589392757
+      Bones_6: -305738679072109373
+      Bones_7: 5108133337276065835
+      Bones_8: -4361333571633691466
+      Bones_9: -472473101296550905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
