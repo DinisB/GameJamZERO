@@ -4,7 +4,7 @@ public class DogScript : MonoBehaviour
 {
     public Rigidbody2D rb2d;
     private float jumpSpeed = 7f;
-    private float walkSpeed = 6f;
+    private float walkSpeed = 5f;
     private bool InGround = true;
     public SpriteRenderer sr;
     Vector3 playerVelocity;
@@ -23,12 +23,12 @@ public class DogScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if (col.gameObject.tag == "Wall") {
-            if (walkSpeed == 6f) {
-                walkSpeed = -6f;
+            if (walkSpeed == 5f) {
+                walkSpeed = -5f;
                 sr.flipX = true;
             }
-            else if (walkSpeed == -6f) {
-                walkSpeed = 6f;
+            else if (walkSpeed == -5f) {
+                walkSpeed = 5f;
                 sr.flipX = false;
             }
         }
