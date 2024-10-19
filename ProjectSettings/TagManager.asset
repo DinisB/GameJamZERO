@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Wall
+  - Bark
+  - Obstacles
+  - Bones
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Enemy
   - 
   - 
   - 
