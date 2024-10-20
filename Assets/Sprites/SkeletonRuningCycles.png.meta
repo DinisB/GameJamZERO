@@ -115,12 +115,12 @@ TextureImporter:
       name: SkeletonRuningCycles_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 30
-        height: 35
-      alignment: 9
-      pivot: {x: 0.6, y: 0.65}
+        x: 0
+        y: 1
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: SkeletonRuningCycles_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 47
         y: 0
-        width: 31
-        height: 37
-      alignment: 9
-      pivot: {x: 0.6, y: 0.65}
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: SkeletonRuningCycles_2
       rect:
         serializedVersion: 2
-        x: 83
-        y: 1
-        width: 20
-        height: 37
-      alignment: 9
-      pivot: {x: 0.6, y: 0.65}
+        x: 84
+        y: 0
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: SkeletonRuningCycles_3
       rect:
         serializedVersion: 2
-        x: 118
-        y: 2
-        width: 28
-        height: 35
-      alignment: 9
-      pivot: {x: 0.6, y: 0.65}
+        x: 120
+        y: 1
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: SkeletonRuningCycles_4
       rect:
         serializedVersion: 2
-        x: 154
+        x: 167
         y: 0
         width: 29
-        height: 37
-      alignment: 9
-      pivot: {x: 0.6, y: 0.65}
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,6 +217,28 @@ TextureImporter:
       bones: []
       spriteID: 1b1229ab60cfd5490800000000000000
       internalID: -7755765877431983695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonRuningCycles_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac67a5c03dbf9dd4c967cffa75658376
+      internalID: -1398574950
       vertices: []
       indices: 
       edges: []
@@ -240,6 +262,7 @@ TextureImporter:
       SkeletonRuningCycles_2: 2432986091531313415
       SkeletonRuningCycles_3: 470380011380943552
       SkeletonRuningCycles_4: -7755765877431983695
+      SkeletonRuningCycles_5: -1398574950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

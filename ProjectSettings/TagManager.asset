@@ -10,6 +10,7 @@ TagManager:
   - Obstacles
   - Bones
   - Enemy
+  - DeathWall
   layers:
   - Default
   - TransparentFX

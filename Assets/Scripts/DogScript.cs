@@ -6,7 +6,7 @@ public class DogScript : MonoBehaviour
 {
     public Rigidbody2D rb2d;
     private float jumpSpeed = 20f;
-    private float walkSpeed = 5f;
+    private float walkSpeed = 4f;
     private bool InGround = true;
     Vector3 playerVelocity;
     public GameObject barkspr;
@@ -17,6 +17,9 @@ public class DogScript : MonoBehaviour
     public TMP_Text scoretext;
     public TMP_Text meterstext;
     private bool DogAlive = true;
+    public GameObject[] Spawners;
+    public GameObject parede;
+    public GameObject UIDog;
 
     IEnumerator MetersAdd() {
         Meters = Meters + 1;
@@ -35,7 +38,7 @@ public class DogScript : MonoBehaviour
         barksound.Play();
         yield return new WaitForSeconds(1);
         barkspr.SetActive(false);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         Barking = false;
     }
 
@@ -48,9 +51,15 @@ public class DogScript : MonoBehaviour
     void FixedUpdate()
     {
         if (DogAlive == false) {
-            rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x-3, rb2d.linearVelocity.y);
+            rb2d.linearVelocity = new Vector2(-5f, rb2d.linearVelocity.y);
+            gameObject.GetComponent<Animator>().SetBool("Dead", true);
+            parede.SetActive(false);
+            UIDog.SetActive(true);
         }
-        rb2d.linearVelocity = new Vector2(0, rb2d.linearVelocity.y-1);
+        if (DogAlive== true) {
+            rb2d.linearVelocity = new Vector2(0, rb2d.linearVelocity.y-1);
+        }
+
 
         if (Input.GetKey("z") && (InGround == true) && (DogAlive == true)){
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
@@ -79,11 +88,14 @@ public class DogScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Bones" && DogAlive == true) {
             Score = Score + 1;
+            gameObject.GetComponent<AudioSource>().Play();
             scoretext.SetText("Score: " + Score.ToString());
         }
 
         if (col.gameObject.tag == "Obstacles") {
             DogAlive = false;
+            Spawners[0].SetActive(false);
+            Spawners[1].SetActive(false);
         }
     }
     void OnTriggerExit2D(Collider2D col){

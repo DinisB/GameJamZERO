@@ -5,6 +5,7 @@ public class SkeletonScript : MonoBehaviour
 {
     public GameObject pref;
     public Rigidbody2D rb2d;
+    public BoxCollider2D bc2d;
     private int BonesDropped = 0;
     private IEnumerator SpawnBone() {
         Instantiate(pref, new Vector2(transform.position.x, transform.position.y + .5f), transform.rotation);
@@ -21,7 +22,7 @@ public class SkeletonScript : MonoBehaviour
     {
         rb2d.linearVelocity = new Vector2(-2.5f, rb2d.linearVelocity.y);
         if (BonesDropped == 6) {
-            Destroy(gameObject);
+            bc2d.isTrigger = true;
         }
     }
 
@@ -29,6 +30,9 @@ public class SkeletonScript : MonoBehaviour
         if (col.gameObject.tag == "Bark") {
             BonesDropped = BonesDropped + 1;
             Instantiate(pref, new Vector2(transform.position.x, transform.position.y + .5f), transform.rotation);
+        }
+        if (col.gameObject.tag == "DeathWall") {
+            Destroy(gameObject);
         }
     }
 }

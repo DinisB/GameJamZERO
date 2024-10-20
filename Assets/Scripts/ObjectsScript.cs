@@ -11,7 +11,13 @@ public class ObjectsScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb2d.linearVelocity = new Vector2(-5, rb2d.linearVelocity.y);
+        rb2d.linearVelocity = new Vector2(-10, rb2d.linearVelocity.y);
+    }
+
+    void OnTriggerEnter2D(Collider2D col) {
+        if (col.gameObject.tag == "DeathWall") {
+            Destroy(gameObject);
+        }
     }
 
 }
