@@ -12,7 +12,7 @@ public class RestartDog : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey("z")){
+        if (Input.GetMouseButton(0)){
             StartCoroutine(DogRestart());
         }
         if (RestartDogVar == true) {

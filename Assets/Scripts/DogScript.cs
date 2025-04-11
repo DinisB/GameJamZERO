@@ -4,6 +4,8 @@ using TMPro;
 
 public class DogScript : MonoBehaviour
 {
+    public int HighScore = 0;
+    public int HighMeters = 0;
     public Rigidbody2D rb2d;
     private float jumpSpeed = 20f;
     private float walkSpeed = 4f;
@@ -20,9 +22,11 @@ public class DogScript : MonoBehaviour
     public GameObject[] Spawners;
     public GameObject parede;
     public GameObject UIDog;
+    public TMP_Text highscoretext;
+    public TMP_Text highmeterstext;
 
     IEnumerator MetersAdd() {
-        Meters = Meters + 1;
+        Meters++;
         meterstext.SetText("Meters: " + Meters.ToString());
         yield return new WaitForSeconds(0.1f);
         if (DogAlive == true) {
@@ -31,6 +35,8 @@ public class DogScript : MonoBehaviour
     }
     void Start()
     {
+        HighScore = PlayerPrefs.GetInt("High Score", 0);
+        HighMeters = PlayerPrefs.GetInt("High Meters", 0);
         StartCoroutine(MetersAdd());
     }
     IEnumerator BarkTimer() {
@@ -51,6 +57,16 @@ public class DogScript : MonoBehaviour
     void FixedUpdate()
     {
         if (DogAlive == false) {
+            if (Score > HighScore){
+                PlayerPrefs.SetInt("High Score", Score);
+            }
+
+            if (Meters > HighMeters){
+                PlayerPrefs.SetInt("High Meters", Meters);
+            }
+
+            highscoretext.SetText("HighScore:" + PlayerPrefs.GetInt("High Score"));
+            highmeterstext.SetText("Most Meters:" + PlayerPrefs.GetInt("High Meters"));
             rb2d.linearVelocity = new Vector2(-5f, rb2d.linearVelocity.y);
             gameObject.GetComponent<Animator>().SetBool("Dead", true);
             parede.SetActive(false);
@@ -112,6 +128,30 @@ public class DogScript : MonoBehaviour
     void OnCollisionExit2D(Collision2D col){
         if (col.gameObject.tag == "Ground") {
             InGround = false;
+        }
+    }
+
+    public void BarkButton() {
+        if (DogAlive == true){
+            Bark();
+        }
+    }
+
+    public void JumpButton() {
+        if ((InGround == true) && (DogAlive == true)){
+            rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
+        }
+    }
+
+    public void LeftButton() {
+        if (DogAlive == true){
+            rb2d.linearVelocity = new Vector2(-walkSpeed, rb2d.linearVelocity.y);
+        }
+    }
+
+    public void RightButton() {
+        if (DogAlive == true){
+            rb2d.linearVelocity = new Vector2(walkSpeed, rb2d.linearVelocity.y);
         }
     }
 }
