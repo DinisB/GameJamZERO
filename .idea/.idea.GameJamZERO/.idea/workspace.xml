@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48e3c10-4581-4693-ba6e-76b68a1b3d44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DogScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="a48e3c10-4581-4693-ba6e-76b68a1b3d44" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744490803442</updated>
-      <workItem from="1744490806742" duration="1263000" />
+      <workItem from="1744490806742" duration="1610000" />
     </task>
     <servers />
   </component>
