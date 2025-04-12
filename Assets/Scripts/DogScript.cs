@@ -6,7 +6,7 @@ public class DogScript : MonoBehaviour
 {
     public int HighScore = 0;
     public int HighMeters = 0;
-    public Rigidbody2D rb2d;
+    private Rigidbody2D rb2d;
     private float jumpSpeed = 20f;
     private float walkSpeed = 4f;
     private bool InGround = true;
@@ -35,6 +35,7 @@ public class DogScript : MonoBehaviour
     }
     void Start()
     {
+        rb2d = GetComponent<Rigidbody2D>();
         HighScore = PlayerPrefs.GetInt("High Score", 0);
         HighMeters = PlayerPrefs.GetInt("High Meters", 0);
         StartCoroutine(MetersAdd());
