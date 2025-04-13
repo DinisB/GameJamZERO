@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48e3c10-4581-4693-ba6e-76b68a1b3d44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamZERO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamZERO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AdviceScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AdviceScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoneScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoneScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloorSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloorSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GrassScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GrassScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JarScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JarScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MountainScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MountainScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjSpawnerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjSpawnerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectsScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectsScript.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a48e3c10-4581-4693-ba6e-76b68a1b3d44" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744490803442</updated>
-      <workItem from="1744490806742" duration="5713000" />
+      <workItem from="1744490806742" duration="6032000" />
     </task>
     <servers />
   </component>
