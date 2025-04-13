@@ -301,11 +301,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Skelly: {fileID: 2203213534888555708, guid: f2b9a1a8d2020a2428b116a77e0db4f8, type: 3}
   Objs:
-  - {fileID: 3694853014777809740, guid: ed44d1b6dd28c3f4087510cdcf698adb, type: 3}
   - {fileID: 7854385149214358760, guid: 48c3f091c25088a44852dcf01c2bb57c, type: 3}
   - {fileID: 3694853014777809740, guid: 0810d2d5485b6c644b3bd589d6c56fd3, type: 3}
   - {fileID: 3694853014777809740, guid: 5722e83d434bece42a275bda1ef55d32, type: 3}
-  ObjToSpawn: 0
+  - {fileID: 3694853014777809740, guid: ed44d1b6dd28c3f4087510cdcf698adb, type: 3}
 --- !u!1 &265783429
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cffda67feea956945b8f5af2c6a819f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb2d: {fileID: 275630580}
   advice: {fileID: 968131910}
 --- !u!50 &275630580
 Rigidbody2D:
@@ -3054,7 +3052,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighScore: 0
   HighMeters: 0
-  rb2d: {fileID: 1440308785}
   barkspr: {fileID: 2074818733}
   barksound: {fileID: 2074818734}
   Score: 0
@@ -4144,7 +4141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Floor: {fileID: 1638330582507411678, guid: 796087e39264eeb4791e9609f30ea022, type: 3}
-  SpawnTime: 0
 --- !u!4 &1855814455
 Transform:
   m_ObjectHideFlags: 0

@@ -3,40 +3,44 @@ using System.Collections;
 
 public class ObjSpawnerScript : MonoBehaviour
 {
-    public GameObject Skelly;
-    public GameObject[] Objs;
-    public int ObjToSpawn;
-    void Start()
+    
+    [SerializeField] private GameObject Skelly;
+    [SerializeField] private GameObject[] Objs;
+    
+    private void Start()
     {
         StartCoroutine(SpawnObstacle());
         StartCoroutine(SpawnSkelly());
     }
 
-    void Update()
-    {
-        
-    }
-    IEnumerator SpawnObstacle() {
-        ObjToSpawn = Random.Range(0,4);
-        if (ObjToSpawn == 0) {
-            Instantiate(Objs[0], new Vector2(transform.position.x, transform.position.y-0.6f), transform.rotation);
+    
+    private IEnumerator SpawnObstacle() {
+        while (true)
+        {
+            int toSpawn = Random.Range(0,4);
+            Instantiate(Objs[toSpawn], new Vector2(transform.position.x, transform.position.y) + GetOffSet(toSpawn), transform.rotation);
+            yield return new WaitForSeconds(Random.Range(4,6));
         }
-        if (ObjToSpawn == 1) {
-            Instantiate(Objs[1], new Vector2(transform.position.x, transform.position.y), transform.rotation);
-        }
-        if (ObjToSpawn == 2) {
-            Instantiate(Objs[2], new Vector2(transform.position.x, transform.position.y-0.8f), transform.rotation);
-        }
-        if (ObjToSpawn == 3) {
-            Instantiate(Objs[3], new Vector2(transform.position.x, transform.position.y-0.9f), transform.rotation);
-        }
-        yield return new WaitForSeconds(Random.Range(4,6));
-        StartCoroutine(SpawnObstacle());
     }
 
-    IEnumerator SpawnSkelly() {
-        Instantiate(Skelly, new Vector2(transform.position.x, transform.position.y+1), transform.rotation);
-        yield return new WaitForSeconds(Random.Range(10,15));
-        StartCoroutine(SpawnSkelly());
+    private Vector2 GetOffSet(int spawn)
+    {
+        Vector2 result = spawn switch
+        {
+            0 => new Vector2(0, -0.6f),
+            1 => Vector2.zero,
+            2 => new Vector2(0f, -0.8f),
+            3 => new Vector2(0F, -0.9f),
+            _ => Vector2.zero
+        };
+        return result;
+    }
+
+    private IEnumerator SpawnSkelly() {
+        while (true)
+        {
+            Instantiate(Skelly, new Vector2(transform.position.x, transform.position.y+1), transform.rotation);
+            yield return new WaitForSeconds(Random.Range(10,15));
+        }
     }
 }
