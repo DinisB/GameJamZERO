@@ -3,11 +3,7 @@ using System.Collections;
 
 public class ObjectsScript : MonoBehaviour
 {
-    public Rigidbody2D rb2d;
-    void Start()
-    {
-
-    }
+    [SerializeField] private Rigidbody2D rb2d;
 
     void FixedUpdate()
     {
@@ -15,7 +11,7 @@ public class ObjectsScript : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        if (col.gameObject.tag == "DeathWall") {
+        if (col.gameObject.CompareTag("DeathWall")) {
             Destroy(gameObject);
         }
     }
